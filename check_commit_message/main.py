@@ -8,12 +8,12 @@ def print_arguments(arguments: list[str]):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("filenames", nargs="*")
+    parser.add_argument('filenames', nargs='*')
     args = parser.parse_args()
 
     print_arguments(args.filenames)
 
 
-if __name__ == "__main__":
-    
+if __name__ == '__main__':
+    print("I'm HERE")
     main()
