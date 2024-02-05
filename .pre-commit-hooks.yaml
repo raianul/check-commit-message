@@ -1,0 +1,6 @@
+# .pre-commit-hooks.yaml
+- id: check-git-commit-message
+  name: Check git commit message
+  description: Check branch name included as prefix of the git commit message
+  entry: check-commit-message
+  language: python
